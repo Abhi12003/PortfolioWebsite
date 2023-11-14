@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-3590435396308790">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +15,8 @@
             </div>
             <ul>
                 <li>
-                    <a href="#">About</a>
+                    <a href="/PortfolioWebsite/photos/aboutme.png
+                    ">About</a>
                 </li>
                 <li>
                     <a href="#">Skills</a>
@@ -84,4 +86,27 @@
     </header>
     
 </body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDkdOwqpKAN2otAowgscOI8-Km7THzNP34",
+      authDomain: "portfoliowebsite-bcaf2.firebaseapp.com",
+      projectId: "portfoliowebsite-bcaf2",
+      storageBucket: "portfoliowebsite-bcaf2.appspot.com",
+      messagingSenderId: "609325357395",
+      appId: "1:609325357395:web:912e96edc227423b4429a6",
+      measurementId: "G-54V6MZLN9R"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
